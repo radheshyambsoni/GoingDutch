@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Going Dutch/app/src/main/res/layout/nav_header.xml" value="0.14375" />
+        <entry key="..\:/GoingDutch/app/src/main/res/drawable/ic_add_white.xml" value="0.304" />
+        <entry key="..\:/GoingDutch/app/src/main/res/drawable/ic_check_white.xml" value="0.304" />
+        <entry key="..\:/GoingDutch/app/src/main/res/drawable/ic_close_white.xml" value="0.304" />
+        <entry key="..\:/GoingDutch/app/src/main/res/drawable/ic_group_add_white.xml" value="0.304" />
+        <entry key="..\:/GoingDutch/app/src/main/res/drawable/ic_share_black_24dp.xml" value="0.304" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/activity_add_new_bill.xml" value="0.23822463768115942" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/activity_main.xml" value="0.23822463768115942" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/add_member_activity.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/add_member_avatar_spinner_row.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/balances_detail.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/balances_fragment.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/create_new_group_activity.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/expense_detail.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/expenses_fragment.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/group_list_activity.xml" value="0.22" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/group_list_detail.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/handle_on_group_click_activity.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/member_detail.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/members_fragment.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/nav_header.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/spinner_item_member.xml" value="0.2563405797101449" />
+        <entry key="..\:/GoingDutch/app/src/main/res/layout/toolbar.xml" value="0.23822463768115942" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/add_bill_action_bar_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/add_member_action_bar_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/expenses_fragment_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/group_list_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/main_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/members_fragment_menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/GoingDutch/app/src/main/res/menu/save_group_bar_menu.xml" value="0.30052083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
