@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.team126.goingdutch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\GoingDutch\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\GoingDutch\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\GoingDutch\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->D:\GoingDutch\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:fullBackupContent="true"
+15-->D:\GoingDutch\app\src\main\AndroidManifest.xml:7:9-41
+16        android:icon="@drawable/gdi"
+16-->D:\GoingDutch\app\src\main\AndroidManifest.xml:8:9-37
+17        android:label="@string/app_name"
+17-->D:\GoingDutch\app\src\main\AndroidManifest.xml:9:9-41
+18        android:roundIcon="@drawable/gdi"
+18-->D:\GoingDutch\app\src\main\AndroidManifest.xml:10:9-42
+19        android:supportsRtl="true"
+19-->D:\GoingDutch\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->D:\GoingDutch\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->D:\GoingDutch\app\src\main\AndroidManifest.xml:14:9-29:20
+23            android:name="com.team126.goingdutch.MainActivity"
+23-->D:\GoingDutch\app\src\main\AndroidManifest.xml:14:19-69
+24            android:exported="true" >
+24-->D:\GoingDutch\app\src\main\AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->D:\GoingDutch\app\src\main\AndroidManifest.xml:16:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\GoingDutch\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\GoingDutch\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\GoingDutch\app\src\main\AndroidManifest.xml:18:17-77
+28-->D:\GoingDutch\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30            <intent-filter android:label="filter_view_example" >
+30-->D:\GoingDutch\app\src\main\AndroidManifest.xml:20:13-28:29
+30-->D:\GoingDutch\app\src\main\AndroidManifest.xml:20:28-63
+31                <action android:name="android.intent.action.VIEW" />
+31-->D:\GoingDutch\app\src\main\AndroidManifest.xml:21:17-69
+31-->D:\GoingDutch\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.DEFAULT" />
+33-->D:\GoingDutch\app\src\main\AndroidManifest.xml:22:17-76
+33-->D:\GoingDutch\app\src\main\AndroidManifest.xml:22:27-73
+34                <category android:name="android.intent.category.BROWSABLE" />
+34-->D:\GoingDutch\app\src\main\AndroidManifest.xml:23:17-78
+34-->D:\GoingDutch\app\src\main\AndroidManifest.xml:23:27-75
+35                <!-- Accepts URIs that begin with "https://www.splititeasy.com” -->
+36                <data
+36-->D:\GoingDutch\app\src\main\AndroidManifest.xml:25:17-26:58
+37                    android:host="www.splititeasy.com"
+37-->D:\GoingDutch\app\src\main\AndroidManifest.xml:26:21-55
+38                    android:scheme="https" />
+38-->D:\GoingDutch\app\src\main\AndroidManifest.xml:25:23-45
+39                <!-- note that the leading "/" is required for pathPrefix -->
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.team126.goingdutch.AddEditMemberActivity" />
+42-->D:\GoingDutch\app\src\main\AndroidManifest.xml:30:9-80
+42-->D:\GoingDutch\app\src\main\AndroidManifest.xml:30:19-78
+43        <activity android:name="com.team126.goingdutch.AddEditBillActivity" />
+43-->D:\GoingDutch\app\src\main\AndroidManifest.xml:31:9-78
+43-->D:\GoingDutch\app\src\main\AndroidManifest.xml:31:19-76
+44        <activity android:name="com.team126.goingdutch.HandleOnGroupClickActivity" />
+44-->D:\GoingDutch\app\src\main\AndroidManifest.xml:32:9-86
+44-->D:\GoingDutch\app\src\main\AndroidManifest.xml:32:19-83
+45        <activity android:name="com.team126.goingdutch.GroupListActivity" />
+45-->D:\GoingDutch\app\src\main\AndroidManifest.xml:33:9-77
+45-->D:\GoingDutch\app\src\main\AndroidManifest.xml:33:19-74
+46        <activity android:name="com.team126.goingdutch.CreateNewGroupActivity" />
+46-->D:\GoingDutch\app\src\main\AndroidManifest.xml:34:9-82
+46-->D:\GoingDutch\app\src\main\AndroidManifest.xml:34:19-79
+47
+48        <service
+48-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\529ed1f508e44b840e653cb9efe5e89f\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+49            android:name="androidx.room.MultiInstanceInvalidationService"
+49-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\529ed1f508e44b840e653cb9efe5e89f\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+50            android:directBootAware="true"
+50-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\529ed1f508e44b840e653cb9efe5e89f\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+51            android:exported="false" />
+51-->[androidx.room:room-runtime:2.4.2] C:\Users\DELL\.gradle\caches\transforms-3\529ed1f508e44b840e653cb9efe5e89f\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+55            android:authorities="com.team126.goingdutch.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4d40ec21232b611dd716b892ede208d6\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b5a10263a72c0b80aefb6f8f76c83ace\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b5a10263a72c0b80aefb6f8f76c83ace\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\b5a10263a72c0b80aefb6f8f76c83ace\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+63        </provider>
+64    </application>
+65
+66</manifest>
